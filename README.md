@@ -2,8 +2,8 @@
 ### Proyecto de prueba tecnica que ayuda a validar y consultar precios en la base de datos en memoria
 ## Requisitos para iniciar el servicio:
 # Configuracion de la base de datos:
-`Base de datos implementada: PostGresSQL 15.0`
-`Archivo de creacion SQL: CreateBd.sql`
+`Base de datos implementada: H2 `
+`Archivo de creacion SQL: Schema.sql`
 
 ### Modificación del archivo de propiedades:
 * El servicio cuenta con una base de datos en memoria H2 donde automaticamente se configura la tabla local con el archivo **schema.sql** el cual contiene la siguiente estructura:

@@ -32,6 +32,8 @@ INSERT INTO PRICES (brand_id,start_date,end_date,price_list,product_id,priority,
 (1,'2020-06-15 00.00.00','2020-12-31 23.59.59',4,35455,1,38.95,'EUR');
 ```
 ## Documentación de los servicios (APIS):
+### Swagger:
+una vez iniciado el proyecto de manera exitosa entrar a la siguiente ruta:<http://localhost:8080/swagger-ui/index.html>.
 El proyecto cuenta con Swagger para la ejecución y documentación de los servicios para pruebas
 * para el ejemplo práctico se dáran los siguientes datos:
 * Caso found
@@ -50,7 +52,6 @@ El proyecto cuenta con Swagger para la ejecución y documentación de los servic
 
 
 
-### Swagger:
-una vez iniciado el proyecto de manera exitosa entrar a la siguiente ruta:<http://localhost:8080/swagger-ui/index.html>.
+
 
 cualquier duda o comentario: **ramses12master@gmail.com**

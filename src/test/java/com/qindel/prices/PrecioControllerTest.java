@@ -5,7 +5,6 @@ import com.qindel.prices.exception.PrecioNotFoundException;
 import com.qindel.prices.model.Prices;
 import com.qindel.prices.model.dto.PricesDTO;
 import com.qindel.prices.repository.PricesRepository;
-import com.qindel.prices.service.PriceService;
 import com.qindel.prices.service.impl.PriceServiceImpl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -17,7 +16,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Optional;
 
 @SpringBootTest
 public class PrecioControllerTest {
